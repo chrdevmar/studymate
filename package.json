@@ -1,0 +1,29 @@
+{
+  "name": "studymate",
+  "version": "1.0.0",
+  "description": "an app to make group study more enjoyable",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "webpack": "^1.13.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "babel-node ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScaredIbis/studymate.git"
+  },
+  "author": "Chris Martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScaredIbis/studymate/issues"
+  },
+  "homepage": "https://github.com/ScaredIbis/studymate#readme"
+}
